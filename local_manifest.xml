@@ -12,8 +12,8 @@
           fetch="https://github.com/sotodrom" /-->
   <remote name="asleno"
           fetch="https://github.com/aslenofarid" />
-  <!-- remote name="pbd"
-          fetch="https://github.com/ProjectBlaze-Devices" /-->
+  <remote name="assaq"
+          fetch="https://github.com/KeepQASSA" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="Q" />
@@ -32,8 +32,16 @@
           <linkfile src="tools" dest="build/tools" />
         </project -->
 
-        <!-- MSM8998 HALs -->
+        <!-- HALs -->
         <remove-project name="hardware_qcom-caf_msm8998_audio" />
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="losx00t" revision="lineage-17.1" />
+        <remove-project name="frameworks_base" />
+        <remove-project name="system_core" />
+        <remove-project name="packages_apps_Settings" />
+        <remove-project name="packages_overlays_qassa" />
+        <project path="frameworks/base" name="frameworks_base" remote="assaq" revision="dot" />
+        <project path="system/core" name="system_core" remote="assaq" revision="dot" />
+        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="assaq" revision="dot" />
+        <project path="packages/overlays/qassa" name="packages_overlays_qassa" remote="assaq" revision="dot" />
 
 </manifest>
