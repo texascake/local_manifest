@@ -33,7 +33,7 @@
         </project -->
 
         <!-- MSM8998 HALs -->
-        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="hardware_qcom-caf_msm8998_audio" />
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="losx00t" revision="lineage-17.1" />
 
 </manifest>
