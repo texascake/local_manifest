@@ -8,8 +8,8 @@
           fetch="https://github.com/Tiktodz" />
   <!-- remote name="inferno0230"
           fetch="https://gitlab.com/inferno0230" /-->
-  <!-- remote name="sotod"
-          fetch="https://github.com/sotodrom" /-->
+  <remote name="texascake"
+          fetch="https://github.com/texascake" />
   <remote name="asleno"
           fetch="https://github.com/aslenofarid" />
   <!-- remote name="assaq"
@@ -17,8 +17,8 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="Q" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="losx00t" revision="lineage-17.1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="asleno" revision="lineage-17.1" />
+        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="qassa" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="texascake" revision="10" />
 
         <!-- build HALs -->
         <!-- remove-project name="build_make" />
