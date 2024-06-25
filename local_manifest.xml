@@ -6,8 +6,8 @@
           fetch="https://github.com/lineageX00T" />
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="tod"
-          fetch="https://gitlab.com/Tiktodz" />
+  <remote name="pancha"
+          fetch="https://gitlab.com/Panchajanya1999" />
   <remote name="texascake"
           fetch="https://github.com/texascake" />
   <remote name="asleno"
@@ -44,6 +44,6 @@
         <project path="packages/apps/Settings" name="packages_apps_Settings" remote="assaq" revision="dot" />
         <project path="packages/overlays/qassa" name="packages_overlays_qassa" remote="assaq" revision="dot" /-->
 
-        <project path="prebuilts/clang/host/linux-x86/ew-clang" name="electrowizard-clang" remote="tod" revision="16" depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/azure-clang" name="azure-clang" remote="pancha" revision="main" depth="1" />
 
 </manifest>
