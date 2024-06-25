@@ -18,7 +18,7 @@
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="Q" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="qassa" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="texascake" revision="clo/hmp" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="texascake" revision="tom/hmp" />
 
         <!-- build HALs -->
         <!-- remove-project name="build_make" />
