@@ -2,23 +2,23 @@
 
 <manifest>
 
-  <remote name="losx00t"
-          fetch="https://github.com/lineageX00T" />
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
-  <!-- remote name="tod"
-          fetch="https://gitlab.com/Tiktodz" /-->
-  <remote name="texascake"
+  <!-- remote name="strongreasons"
+          fetch="https://github.com/strongreasons" /-->
+  <remote name="texas"
           fetch="https://github.com/texascake" />
-  <remote name="asleno"
-          fetch="https://github.com/aslenofarid" />
-  <!-- remote name="assaq"
-          fetch="https://github.com/KeepQASSA" /-->
+  <!-- remote name="inferno0230"
+          fetch="https://gitlab.com/inferno0230" /-->
+  <!-- remote name="sotod"
+          fetch="https://github.com/sotodrom" /-->
+  <remote name="inexdroid"
+          fetch="https://github.com/inexdroid" />
+  <!-- remote name="pbd"
+          fetch="https://github.com/ProjectBlaze-Devices" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="Q" />
-        <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="qassa" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="asleno" revision="lineage-17.1" />
+        <project path="device/asus/X00TD" name="android_device_asus_X01BD" remote="texas" revision="everest" />
+        <project path="vendor/asus" name="android_vendor_asus" remote="texas" revision="14" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="texas" revision="blaze" />
 
         <!-- build HALs -->
         <!-- remove-project name="build_make" />
@@ -32,18 +32,20 @@
           <linkfile src="tools" dest="build/tools" />
         </project -->
 
-        <!-- HALs -->
-        <!-- remove-project name="hardware_qcom-caf_msm8998_audio" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="losx00t" revision="lineage-17.1" />
-        <remove-project name="frameworks_base" />
-        <remove-project name="system_core" />
-        <remove-project name="packages_apps_Settings" />
-        <remove-project name="packages_overlays_qassa" />
-        <project path="frameworks/base" name="frameworks_base" remote="assaq" revision="dot" />
-        <project path="system/core" name="system_core" remote="assaq" revision="dot" />
-        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="assaq" revision="dot" />
-        <project path="packages/overlays/qassa" name="packages_overlays_qassa" remote="assaq" revision="dot" /-->
+        <!-- MSM8998 HALs -->
+        <!-- remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="inexdroid" revision="14" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="inexdroid" revision="14" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="inexdroid" revision="14" /-->
 
-        <!-- project path="prebuilts/clang/host/linux-x86/ew-clang" name="electrowizard-clang" remote="tod" revision="16" depth="1" /-->
+        <!-- vendor HALs -->
+        <!--remove-project name="vendor_blaze" />
+        <project path="vendor/blaze" name="vendor_blaze" remote="sotod" revision="14" /-->
+
+        <!-- Toolchain Clang -->
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" /-->
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="inferno0230" revision="thirteen" clone-depth="1" /-->
 
 </manifest>
