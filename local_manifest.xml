@@ -8,7 +8,7 @@
           fetch="https://github.com/Tiktodz" />
   <!-- remote name="tod"
           fetch="https://gitlab.com/Tiktodz" /-->
-  <remote name="texascake"
+  <remote name="texas"
           fetch="https://github.com/texascake" />
   <remote name="asleno"
           fetch="https://github.com/aslenofarid" />
@@ -18,7 +18,7 @@
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="Q" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="qassa" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="asleno" revision="lineage-17.1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="texas" revision="tom/hmp" />
 
         <!-- build HALs -->
         <!-- remove-project name="build_make" />
