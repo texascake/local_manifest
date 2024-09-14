@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
 
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
   <remote name="texas"
           fetch="https://github.com/texascake" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="android_device_asus_X00TD" remote="texas" revision="qassa" />
-        <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="qassa" />
+        <project path="device/asus/X00T" name="android_device_asus_X00TD" remote="texas" revision="nad" />
 
 </manifest>
