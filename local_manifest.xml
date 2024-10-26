@@ -6,9 +6,14 @@
           fetch="https://github.com/Tiktodz" />
   <remote name="texas"
           fetch="https://github.com/texascake" />
+  <remote name="kdrag0n"
+        fetch="https://github.com/kdrag0n" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="android_device_asus_X00TD" remote="texas" revision="qassa" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="qassa" />
+
+        <!-- Proton-Clang v13.0.0 Toolchain -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
 
 </manifest>
