@@ -5,6 +5,6 @@
           fetch="https://github.com/texascake" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="texas" revision="evos" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="texas" revision="v2" />
 
 </manifest>
