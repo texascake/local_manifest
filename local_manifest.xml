@@ -5,9 +5,12 @@
         <remote name="texascake"
         fetch="https://github.com/texascake" />
 
+        <remote name="electrolaboratory"
+        fetch="https://github.com/electrolaboratory" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="texascake" revision="10" clone-depth="1" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="texascake" revision="10" clone-depth="1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="texascake" revision="10" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="texascake" revision="q" clone-depth="1" />
+        <project path="vendor/asus" name="vendor_asus" remote="electrolaboratory" revision="q" clone-depth="1" />
 
 </manifest>
