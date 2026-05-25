@@ -10,7 +10,7 @@
         fetch="https://github.com/kdrag0n" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="Tiktodz" revision="vos" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="Tiktodz" revision="16" />
         <!-- project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="qassa" /-->
 
         <!-- Proton-Clang v13.0.0 Toolchain -->
